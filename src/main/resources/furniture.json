@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Стол обеденный",
+    "category": "мебель",
+    "price": 100,
+    "goodID": 1,
+    "weight": 20,
+    "color": "белый",
+    "material": "ДСП"
+  },
+  {
+    "name": "Стул обеденный",
+    "category": "мебель",
+    "price": 50,
+    "goodID": 2,
+    "weight": 5,
+    "color": "черный",
+    "material": "сосна"
+  },
+  {
+    "name": "Кровать двухспальная",
+    "category": "мебель",
+    "price": 50,
+    "goodID": 3,
+    "weight": 40,
+    "color": "серый"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Тарелка",
+    "category": "посуда",
+    "price": 100,
+    "goodID": 4,
+    "color": "белый",
+    "material": "керамика"
+  },
+  {
+    "name": "Вилка",
+    "category": "посуда",
+    "price": 50,
+    "goodID": 5,
+    "color": "зеленый",
+    "material": "алюминий"
+  },
+  {
+    "name": "Ложка",
+    "category": "посуда",
+    "price": 50,
+    "goodID": 6,
+    "color": "зеленый",
+    "material": "алюминий"
+  }
+]
