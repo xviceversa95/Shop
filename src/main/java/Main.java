@@ -37,9 +37,7 @@ public class Main {
         while (true) {
 
             System.out.println("Приветствуем, " + client.name);
-            for (String command : commandList) {
-                System.out.println(command);
-            }
+            printMenu(commandList);
             String inputNumber = scanner.nextLine();
             int commandNumber = Integer.parseInt(inputNumber);
             System.out.println("Ваш выбор: " + commandNumber);
@@ -76,9 +74,7 @@ public class Main {
             }
             if (commandNumber == 2) {
                 basket.printBasketList();
-                for (String command : basketCommands) {
-                    System.out.println(command);
-                }
+                printMenu(basketCommands);
                 String inputCommand = scanner.nextLine();
                 int command = Integer.parseInt(inputCommand);
                 if (command == 0) {
@@ -99,6 +95,11 @@ public class Main {
                     basket.clearAll();
                 }
             }
+        }
+    }
+    public static void printMenu(String[] menu){
+        for (String item : menu) {
+            System.out.println(item);
         }
     }
 }
