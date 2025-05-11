@@ -50,6 +50,7 @@ public class GoodList implements GoodTaker {
             }
         }
     }
+    @Override
     public Good takeGoodById(int takeID, String category) {
         Good goodTest = null;
         if (category.equals("посуда")) {
